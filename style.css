@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "DM Sans"; 
+    src: url("./assets/DMSans-VariableFont_opsz,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    padding: 100px 115px 96px 115px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 1010px;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(30, 14, 98, 1);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.button {
+    font-family: "DM Sans", sans-serif;
+    padding: 12px 30px;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: white;
+    color: rgba(30, 14, 98, 1);
+    cursor: pointer;
+}
+
+.header > .button {
+    font-weight: 600;
+    height: 50px;
+}
+
+.button--green {
+    background-color: rgba(37, 218, 197, 1);
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+.card {
+    background-color: rgba(235, 234, 237, 1);
+    border-radius: 10px;
+    width: 570px;
+    height: 340px;
+    padding: 55px 25px 50px 71px;
+}
+
+.card--background-white {
+    background-color: white; 
+    border: 2px solid rgba(235, 234, 237, 1);
+}
+
+.card--background-blue {
+    background-color: rgba(72, 43, 231, 1);
+}
+
+.card--background-image {
+    background-image: url('./assets/image.png');
+}
+
+.card h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(30, 14, 98, 1);
+    margin: 0;
+    line-height: 32px;
+}
+
+.card .h5--white {
+    color: white;
+}
+
+.card p {
+    color: rgba(30, 14, 98, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    vertical-align: top;
+    margin: 16px 0;
+    height: 131px;
+}
+
+.card .p--grey {
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.card .p--white {
+    color: white;
+}
+ 
+
